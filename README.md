@@ -1,6 +1,6 @@
 # Drash
 
-Drash is a Command Line Interface (CLI) application that serves as a better alternative to the Linux `rm` command. It records the original path of the file which was removed. It puts the deleted file into a temp directory (`~/.local/share/Drash`), making it easy to recovery them later if you accidentally deleted the wrong file.
+Drash is a Command Line Interface (CLI) application that serves as a better alternative to the Linux `rm` command. It records the original path of the removed file, and puts the deleted file into a temp directory (`~/.local/share/Drash`), making it easy to recovery later if you accidentally deleted the wrong file.
 
 This same functionality is used by KDE, GNOME, and XFCE [freedesktop-trashcan](https://www.freedesktop.org/wiki/Specifications/trash-spec/).
 
@@ -29,7 +29,7 @@ cargo install --path .
 
 ### Drash files
 
-Put a file intot the drashcan:
+Put a file into the drashcan:
 ```
 drash foo
 ```
@@ -89,7 +89,7 @@ drash empty -y
 
 ## Bugs
 
-If you discover a bugs please report them [here](https://github.com/Hamza12700/drash/issues/).
+If you discover any bugs please report them [here](https://github.com/Hamza12700/drash/issues/).
 
 ## Contributing
 
